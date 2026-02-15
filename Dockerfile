@@ -1,7 +1,7 @@
 # Use the official lightweight Node.js 12 image.
 # https://hub.docker.com/_/node
 # Choose the Server and Node Version
-FROM node:20-alpine
+FROM node:18-alpine
 
 # Create and change to the app directory.
 RUN mkdir -p /usr/src/myapp
